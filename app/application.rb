@@ -15,5 +15,6 @@ class Application
       resp.status = 404
       resp.write
     end
+    resp.finish
   end
 end

@@ -7,9 +7,9 @@ class Application
       item_name = req.path.split(/items\//).last
       item = item.
       if Item.all.include? item
-        resp.write ""
+        resp.write "hi"
       else
-
+        resp.status = 400
       end
     else
       resp.status = 404

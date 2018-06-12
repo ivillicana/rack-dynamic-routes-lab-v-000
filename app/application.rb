@@ -7,7 +7,7 @@ class Application
       item_name = req.path.split(/items\//).last
       item = item.
       if Item.all.include? item
-        resp.write "#"
+        resp.write ""
       else
 
       end

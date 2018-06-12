@@ -13,7 +13,7 @@ class Application
       end
     else
       resp.status = 404
-      resp.write
+      resp.write "Hi"
     end
     resp.finish
   end
